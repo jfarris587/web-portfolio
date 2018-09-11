@@ -1,0 +1,26 @@
+.header{
+  height: 100vh;
+  background: $primary-white;
+  position: relative;
+
+  .title{
+    text-align: center;
+    top: 43%;
+    transform: translateY(-50%);
+    position: relative;
+
+
+    h2{
+      text-transform: uppercase;
+      color: $primary-red;
+      font-size: 2.5rem;
+      font-weight: 300;
+    }
+  }
+}
+
+.arrow{
+  position: relative;
+  bottom: -20vh;
+
+}

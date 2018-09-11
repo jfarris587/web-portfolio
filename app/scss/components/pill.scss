@@ -1,0 +1,24 @@
+.pill{
+  font-size: 1.25rem;
+  background: #8ed58a;
+  display: inline-block;
+  margin-bottom: 5px;
+  border-radius: 50px;
+  padding: 0;
+  width: 120px;
+  height: 20px;
+  text-align: center;
+  line-height: 22px;
+  opacity: .65;
+  cursor: default;
+
+  &:hover{
+    opacity: 1;
+  }
+}
+
+@media (max-width: 800px) {
+  .pill{
+    opacity: 1;
+  }
+}

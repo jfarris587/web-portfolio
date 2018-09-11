@@ -1,0 +1,27 @@
+{
+  "name": "WebFlavor",
+  "version": "0.0.1",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt-browser-sync": "^2.2.0",
+    "grunt": "^1.0.3",
+    "grunt-contrib-clean": "^1.1.0",
+    "grunt-contrib-compress": "^1.4.3",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-cssmin": "^2.2.1",
+    "grunt-contrib-imagemin": "^2.0.1",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-uglify": "^3.4.0",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-htmlhint": "^0.9.13",
+    "grunt-size-report": "^0.1.4",
+    "grunt-timer": "^0.6.0",
+    "grunt-webpack": "^3.1.2",
+    "load-grunt-tasks": "^4.0.0",
+    "ruby": "^0.6.1",
+    "sass": "^1.10.3",
+    "webpack": "^4.16.5",
+    "grunt-usemin": "^3.1.1"
+  }
+}
