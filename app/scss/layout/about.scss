@@ -1,7 +1,9 @@
 .about{
-  
 
-  &-text{
-    //padding-left: 150px;
+
+  img{
+    top: 50%;
+    transform: translateY(-50%);
+    position: relative;
   }
 }

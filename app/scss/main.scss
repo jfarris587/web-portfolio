@@ -3,6 +3,7 @@
 
 @import "layout/header.scss";
 @import "layout/about.scss";
+@import "layout/work.scss";
 
 @import "components/button.scss";
 @import "components/arrow.scss";
@@ -16,7 +17,7 @@ html {
 
 body {
   background: #fff;
-  font-family: 'HKGrotesk',sans-serif;
+  font-family: 'Roboto',sans-serif;
   font-weight: 100;
   text-rendering: optimizeLegibility;
   height: 100%;
@@ -25,7 +26,7 @@ body {
 h1{
   text-transform: uppercase;
   font-size: 4.5rem;
-  font-family: 'Primetime';
+  font-family: 'Archivo Black';
   color: $primary-red;
 }
 
@@ -51,8 +52,8 @@ p{
 
 section{
   margin: 0 auto;
-  max-width: 1400px;
-  margin-bottom: 100px !important;
+  max-width: 1200px;
+  margin-bottom: 50px !important;
 }
 
 div[class^="col"]{
@@ -63,4 +64,13 @@ div[class^="col"]{
 .content{
   padding: 0px 50px;
   width: 100%;
+}
+
+img{
+  width: 100%;
+}
+
+.experience{
+  text-align: center;
+  padding: 0 50px;
 }

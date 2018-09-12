@@ -1,6 +1,5 @@
 .pill{
   font-size: 1.25rem;
-  background: #8ed58a;
   display: inline-block;
   margin-bottom: 5px;
   border-radius: 50px;
@@ -9,7 +8,7 @@
   height: 20px;
   text-align: center;
   line-height: 22px;
-  opacity: .65;
+  opacity: .5;
   cursor: default;
 
   &:hover{
@@ -21,4 +20,20 @@
   .pill{
     opacity: 1;
   }
+}
+
+.pill-1{
+  background: $pill-1;
+  color: $primary-white;
+}
+
+.pill-2{
+  background: $pill-2;
+}
+.pill-3{
+  background: $pill-3;
+  color: $primary-white;
+}
+.pill-4{
+  background: $pill-4;
 }

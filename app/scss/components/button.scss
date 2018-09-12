@@ -2,9 +2,19 @@
   outline: 0;
   border: 0;
   font-size: 1.7rem;
-  padding: 10px 30px;
+  padding: 10px 40px;
   border-radius: 500px;
   background: $primary-red;
   color: $primary-white;
-  text-transform: up
+  background: linear-gradient(141deg, $primary-blue, $secondary-blue);
+  transition: all 80ms ease-out;
+
+  &:hover{
+    box-shadow: 0 0 15px rgba(0,0,0, .4);
+    transform: scale(1.07);
+  }
+
+  &:focus{
+    outline: none;
+  }
 }

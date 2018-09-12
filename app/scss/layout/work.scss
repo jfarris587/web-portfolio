@@ -1,0 +1,17 @@
+.work{
+  img{
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 100px rgba(0,0,0, .2);
+  }
+
+  i{
+    margin: 0 0 0 10px;
+    top: 2px;
+    position: relative;
+
+    &:hover{
+      color: $primary-blue;
+    }
+  }
+}
