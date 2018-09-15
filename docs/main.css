@@ -1,0 +1,253 @@
+@font-face {
+  font-family: "Primetime";
+  src: url("font/primetime.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: "HKGrotesk";
+  src: url("font/HKGrotesk-Light.otf") format("opentype");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: "HKGrotesk";
+  src: url("font/HKGrotesk-Regular.otf") format("opentype");
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: "HKGrotesk";
+  src: url("font/HKGrotesk-Medium.otf") format("opentype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "HKGrotesk";
+  src: url("font/HKGrotesk-SemiBold.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "HKGrotesk";
+  src: url("font/HKGrotesk-Bold.otf") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+}
+/* UTILS */
+.highlight {
+  background: #d9fbff;
+  padding: 1px;
+}
+
+.header {
+  height: 100vh;
+  background: #fff;
+  position: relative;
+}
+.header .title {
+  text-align: center;
+  top: 43%;
+  transform: translateY(-50%);
+  position: relative;
+}
+.header .title h1 {
+  background: linear-gradient(141deg, #1fc8db, #2cb5e8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.header .title h2 {
+  text-transform: uppercase;
+  color: #2b2b2b;
+  font-size: 2.5rem;
+  font-weight: 300;
+}
+
+.arrow {
+  position: relative;
+  bottom: -20vh;
+}
+
+.about img {
+  top: 50%;
+  transform: translateY(-50%);
+  position: relative;
+}
+
+.work img {
+  border-radius: 10px;
+  box-shadow: 0 0 100px rgba(0, 0, 0, 0.2);
+}
+.work i.profile {
+  margin: 0 0 0 10px;
+  top: 2px;
+  position: relative;
+}
+.work i.profile:hover {
+  color: #1fc8db;
+}
+.work i.project {
+  margin: 0 5px 0 0;
+  top: 1px;
+  position: relative;
+}
+.work i.project:hover {
+  color: #1fc8db;
+}
+.work a {
+  text-decoration: none;
+  color: #2b2b2b;
+}
+
+.card {
+  transition: all ease 0.5s;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 10px;
+}
+.card:hover {
+  box-shadow: 0 20px 40px rgba(43, 43, 43, 0.15);
+  transition: all ease 0.1s;
+}
+
+.button {
+  outline: 0;
+  border: 0;
+  font-size: 1.7rem;
+  padding: 10px 40px;
+  border-radius: 500px;
+  background: #2b2b2b;
+  color: #fff;
+  background: linear-gradient(141deg, #1fc8db, #2cb5e8);
+  transition: all 80ms ease-out;
+}
+.button:hover {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+  transform: scale(1.07);
+}
+.button:focus {
+  outline: none;
+}
+
+.arrow {
+  box-sizing: border-box;
+  height: 5vw;
+  width: 5vw;
+  border-style: solid;
+  border-color: #2b2b2b;
+  border-width: 0px 1px 1px 0px;
+  transform: rotate(45deg);
+  transition: border-width 150ms ease-in-out;
+  margin: 0 auto;
+}
+.arrow:hover {
+  border-bottom-width: 2px;
+  border-right-width: 2px;
+}
+
+.pill {
+  font-size: 1.25rem;
+  display: inline-block;
+  margin-bottom: 5px;
+  border-radius: 50px;
+  padding: 0;
+  width: 120px;
+  height: 20px;
+  text-align: center;
+  line-height: 22px;
+  opacity: 0.5;
+  cursor: default;
+}
+.pill:hover {
+  opacity: 1;
+}
+
+@media (max-width: 800px) {
+  .pill {
+    opacity: 1;
+  }
+}
+.pill-1 {
+  background: #1983ab;
+  color: #fff;
+}
+
+.pill-2 {
+  background: #5dedfe;
+}
+
+.pill-3 {
+  background: #5cabc8;
+  color: #fff;
+}
+
+.pill-4 {
+  background: #1fc8db;
+}
+
+html {
+  height: 100%;
+  font-size: 10px;
+  cursor: default;
+}
+
+body {
+  background: #fff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  text-rendering: optimizeLegibility;
+  height: 100%;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 4.5rem;
+  font-family: "Archivo Black";
+  color: #2b2b2b;
+}
+
+h3 {
+  font-size: 3rem;
+  font-weight: 300;
+}
+
+h4 {
+  font-size: 2.3rem;
+  font-weight: 300;
+}
+
+h5 {
+  font-size: 1.8rem;
+  font-weight: 200;
+}
+
+p {
+  font-size: 1.6rem;
+}
+
+section {
+  margin: 0 auto;
+  max-width: 1200px;
+  margin-bottom: 50px !important;
+}
+
+div[class^=col] {
+  margin-bottom: 25px;
+  padding: 0 25px;
+}
+
+.content {
+  padding: 0px 50px;
+  width: 100%;
+}
+
+img {
+  width: 100%;
+}
+
+.experience {
+  text-align: center;
+  padding: 0 50px;
+}
+
+/*# sourceMappingURL=main.css.map */

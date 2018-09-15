@@ -1,0 +1,44 @@
+.work{
+  img{
+    border-radius: 10px;
+    box-shadow: 0 0 100px rgba(0,0,0, .2);
+  }
+
+  i.profile{
+    margin: 0 0 0 10px;
+    top: 2px;
+    position: relative;
+
+    &:hover{
+      color: $primary-blue;
+    }
+  }
+
+  i.project{
+    margin: 0 5px 0 0;
+    top: 1px;
+    position: relative;
+
+    &:hover{
+      color: $primary-blue;
+    }
+  }
+
+  a{
+    text-decoration: none;
+    color: $primary-red;
+  }
+}
+
+
+.card {
+  transition: all ease .5s;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 10px;
+
+  &:hover {
+    box-shadow: 0 20px 40px rgba(#2b2b2b,.15);
+    transition: all ease .1s;
+  }
+}
