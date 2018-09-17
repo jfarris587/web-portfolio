@@ -4,6 +4,7 @@
 @import "layout/header.scss";
 @import "layout/about.scss";
 @import "layout/work.scss";
+@import "layout/contact.scss";
 
 @import "components/button.scss";
 @import "components/arrow.scss";
@@ -65,6 +66,7 @@ div[class^="col"]{
 .content{
   padding: 0px 50px;
   width: 100%;
+  margin: 0 auto;
 }
 
 img{
@@ -74,4 +76,21 @@ img{
 .experience{
   text-align: center;
   padding: 0 50px;
+}
+
+@media (max-width: 600px) {
+  .content{
+    padding: 0px 20px;
+  }
+
+  .experience{
+    text-align: center;
+    padding: 0 0px;
+  }
+}
+
+@media (max-width: 450px) {
+  .content{
+    padding: 0px 10px;
+  }
 }

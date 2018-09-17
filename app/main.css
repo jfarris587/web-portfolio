@@ -52,6 +52,7 @@
   position: relative;
 }
 .header .title h1 {
+  font-size: 8rem;
   background: linear-gradient(141deg, #1fc8db, #2cb5e8);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -68,6 +69,11 @@
   bottom: -20vh;
 }
 
+@media (max-width: 700px) {
+  .header .title h1 {
+    font-size: 5rem;
+  }
+}
 .about img {
   top: 50%;
   transform: translateY(-50%);
@@ -90,6 +96,7 @@
   margin: 0 5px 0 0;
   top: 1px;
   position: relative;
+  cursor: default;
 }
 .work i.project:hover {
   color: #1fc8db;
@@ -110,6 +117,41 @@
   transition: all ease 0.1s;
 }
 
+.contact {
+  text-align: center;
+  background: linear-gradient(141deg, #1fc8db, #2cb5e8);
+}
+.contact .box {
+  background: #fff;
+  margin: 100px 0;
+  width: 100%;
+  padding: 50px 10px;
+  border-radius: 20px;
+  box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.25);
+}
+.contact .box form {
+  width: 100%;
+}
+.contact .box form .message {
+  padding-bottom: 150px;
+}
+.contact .box form input {
+  display: block;
+  width: 75%;
+  margin: 0 auto;
+  font-size: 1.4rem;
+  padding: 5px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.15);
+}
+
+@media (max-width: 500px) {
+  .contact .col-sm-12 {
+    padding: 0 !important;
+  }
+}
 .button {
   outline: 0;
   border: 0;
@@ -239,6 +281,7 @@ div[class^=col] {
 .content {
   padding: 0px 50px;
   width: 100%;
+  margin: 0 auto;
 }
 
 img {
@@ -248,6 +291,22 @@ img {
 .experience {
   text-align: center;
   padding: 0 50px;
+}
+
+@media (max-width: 600px) {
+  .content {
+    padding: 0px 20px;
+  }
+
+  .experience {
+    text-align: center;
+    padding: 0 0px;
+  }
+}
+@media (max-width: 450px) {
+  .content {
+    padding: 0px 10px;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
