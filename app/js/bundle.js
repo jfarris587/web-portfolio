@@ -51,3 +51,11 @@ $(document).ready(function() {
       setCardStyle();
   })
 });
+
+function contactButton(){
+  $("html, body").animate({ scrollTop: $('.footer').offset().top }, 1000);
+}
+
+function arrowButton(){
+  $("html, body").animate({ scrollTop: $('.about').offset().top - 50}, 1000);
+}

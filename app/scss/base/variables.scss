@@ -9,43 +9,8 @@ $pill-3:#5cabc8;
 $pill-4:#1fc8db;
 
 @font-face {
-  font-family: "Primetime";
-  src: url('font/primetime.ttf') format('truetype');
+  font-family: "Gravity";
+  src: url('font/Gravity-Light.otf') format('truetype');
   font-weight: 100;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "HKGrotesk";
-  src: url('font/HKGrotesk-Light.otf') format('opentype');
-  font-weight: 100;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "HKGrotesk";
-  src: url('font/HKGrotesk-Regular.otf') format('opentype');
-  font-weight: 200;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "HKGrotesk";
-  src: url('font/HKGrotesk-Medium.otf') format('opentype');
-  font-weight: 300;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "HKGrotesk";
-  src: url('font/HKGrotesk-SemiBold.otf') format('opentype');
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "HKGrotesk";
-  src: url('font/HKGrotesk-Bold.otf') format('opentype');
-  font-weight: 500;
   font-style: normal;
 }

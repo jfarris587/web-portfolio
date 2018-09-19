@@ -19,7 +19,7 @@ html {
 
 body {
   background: #fff;
-  font-family: 'Roboto',sans-serif;
+  font-family: 'Gravity',sans-serif;
   font-weight: 100;
   text-rendering: optimizeLegibility;
   height: 100%;
@@ -73,14 +73,11 @@ img{
   width: 100%;
 }
 
-.experience{
-  text-align: center;
-  padding: 0 50px;
-}
+
 
 @media (max-width: 600px) {
   .content{
-    padding: 0px 20px;
+    padding: 0px 5px;
   }
 
   .experience{
